@@ -34,3 +34,10 @@ body {
     clip-path: polygon(8% 0%, 100% 0%, 92% 100%, 0% 100%);
   }
 }
+
+html,
+body {
+  overflow-x: hidden;
+  overscroll-behavior: none;
+  background: black;
+}

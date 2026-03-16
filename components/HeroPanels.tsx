@@ -17,18 +17,3 @@ export default function HeroPanels() {
     </main>
   )
 }
-
-// import HeroPanel from "./HeroPanel"
-// import { panels } from "@/data/panel"
-
-// export default function HeroPanels() {
-//   return (
-//     <main className="flex min-h-screen flex-col md:flex-row">
-//       {panels.map((panel) => (
-//         <div key={panel.title} className="relative min-h-[33.333vh] flex-1 md:min-h-screen">
-//           <HeroPanel {...panel} />
-//         </div>
-//       ))}
-//     </main>
-//   )
-// }

@@ -3,26 +3,38 @@ interface Props {
 }
 
 export default function MenuOverlay({ close }: Props) {
-  return (
-    <div className="fixed inset-0 bg-black text-white z-50 flex flex-col items-center justify-center">
+  const menuItems = [
+    "Sculpture",
+    "Design",
+    "Paintings",
+    "Exhibitions",
+    "About Jeff",
+    "Commissions",
+    "Contact"
+  ]
 
+  return (
+    <div className="fixed inset-0 z-50 flex items-center justify-center bg-black text-white">
+
+      {/* Close button */}
       <button
         onClick={close}
-        className="absolute top-8 right-8 text-3xl"
+        className="absolute right-8 top-8 text-3xl opacity-80 hover:opacity-100"
       >
         ✕
       </button>
 
-      <nav className="text-center space-y-6 text-2xl tracking-widest">
-
-        <a href="#">Sculpture</a>
-        <a href="#">Design</a>
-        <a href="#">Paintings</a>
-        <a href="#">Exhibitions</a>
-        <a href="#">About Jeff</a>
-        <a href="#">Commissions</a>
-        <a href="#">Contact</a>
-
+      {/* Menu */}
+      <nav className="flex flex-col items-center gap-8 text-xl tracking-[0.3em] md:text-2xl">
+        {menuItems.map((item) => (
+          <a
+            key={item}
+            href="#"
+            className="transition-opacity duration-300 hover:opacity-60"
+          >
+            {item}
+          </a>
+        ))}
       </nav>
 
     </div>

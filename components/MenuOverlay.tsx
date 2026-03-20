@@ -36,7 +36,6 @@ export default function MenuOverlay({ close }: Props) {
           </a>
         ))}
       </nav>
-
     </div>
   )
 }

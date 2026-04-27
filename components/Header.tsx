@@ -50,7 +50,6 @@ export default function Header() {
       </header>
 
       {menuOpen && <MenuOverlay close={() => setMenuOpen(false)} />}
-
     </>
   )
 }

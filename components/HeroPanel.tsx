@@ -33,6 +33,7 @@ export default function HeroPanel({ title, image, href }: Props) {
       <h2 className="relative z-10 px-4 text-center text-3xl tracking-[0.35em] text-white md:text-5xl">
         {title}
       </h2>
+      
     </Link>
   )
 }

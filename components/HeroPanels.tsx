@@ -3,6 +3,7 @@ import { panels } from "@/data/panels"
 
 export default function HeroPanels() {
   return (
+
     <main className="flex min-h-screen flex-col md:flex-row">
       {panels.map((panel, index) => (
         <div
@@ -15,5 +16,6 @@ export default function HeroPanels() {
         </div>
       ))}
     </main>
+    
   )
 }

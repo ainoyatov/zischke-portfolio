@@ -19,6 +19,7 @@ const menuItems = [
 export default function MenuOverlay({ close }: Props) {
   return (
     <div className="fixed inset-0 z-[60] flex items-center justify-center bg-black text-white">
+      
       <button
         onClick={close}
         aria-label="Close menu"
@@ -39,6 +40,7 @@ export default function MenuOverlay({ close }: Props) {
           </Link>
         ))}
       </nav>
+
     </div>
   )
 }

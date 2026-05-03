@@ -5,6 +5,7 @@ export interface Panel {
 }
 
 export const panels: Panel[] = [
+
   {
     title: "Sculpture",
     image: "/sculpture.png",
@@ -20,4 +21,5 @@ export const panels: Panel[] = [
     image: "/painting.png",
     href: "/paintings"
   }
+  
 ]

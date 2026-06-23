@@ -1,6 +1,7 @@
 'use client'
 
 import Image from 'next/image'
+import Link from 'next/link'
 import { useEffect, useState } from 'react'
 import { usePathname } from 'next/navigation'
 import MenuOverlay from './MenuOverlay'
@@ -18,14 +19,20 @@ export default function Header() {
       <header className="fixed inset-x-0 top-0 z-50">
         <div className="flex items-start justify-between px-4 py-4 sm:px-6 sm:py-6">
           <div className="shrink-0">
-            <Image
-              src="/zischke_logo_light.png"
-              alt="Jeff Logo"
-              width={120}
-              height={60}
-              className="h-auto w-24 sm:w-28 md:w-32"
-              priority
-            />
+            <Link
+              href="/"
+              aria-label="Go to homepage"
+              className="inline-block"
+            >
+              <Image
+                src="/zischke_logo_light.png"
+                alt="Jeff Logo"
+                width={120}
+                height={60}
+                className="h-auto w-24 sm:w-28 md:w-32 cursor-pointer transition-opacity hover:opacity-80"
+                priority
+              />
+            </Link>
           </div>
 
           <div className="flex items-center gap-2 sm:gap-4">

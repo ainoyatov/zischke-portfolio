@@ -16,7 +16,7 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "Zischke Gallery",
   description:
-    "Zischke Gallery showcases sculpture, design, paintings, exhibitions, commissions, and the work of Jeff Zischke.",
+    "Zischke Gallery showcases sculpture, design, paintings, and the work of Jeff Zischke.",
 };
 
 export default function RootLayout({

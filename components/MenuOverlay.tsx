@@ -10,9 +10,7 @@ const menuItems = [
   { label: 'Sculpture', href: '/sculpture' },
   { label: 'Design', href: '/design' },
   { label: 'Paintings', href: '/paintings' },
-  { label: 'Exhibitions', href: '/exhibitions' },
-  { label: 'About Jeff', href: '/about-jeff' },
-  { label: 'Commissions', href: '/commissions' },
+  { label: 'About Jeff', href: '/about' },
   { label: 'Contact', href: '/contact' }
 ]
 

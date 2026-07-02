@@ -36,8 +36,9 @@ body {
 }
 
 html,
+
 body {
   overflow-x: hidden;
-  overscroll-behavior: none;
+  overscroll-behavior-x: none;
   background: black;
 }

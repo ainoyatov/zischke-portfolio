@@ -6,25 +6,25 @@ const designWorks = [
     title: 'Signal Chair',
     material: 'Steel · Leather · 2024',
     size: '32 × 24 × 28 in',
-    image: '/images/design/design-1.jpg',
+    image: '/images/design/design-1.png',
   },
   {
     title: 'Arc Table',
     material: 'Walnut · Bronze · 2023',
     size: '72 × 34 × 30 in',
-    image: '/images/design/design-2.jpg',
+    image: '/images/design/design-2.png',
   },
   {
     title: 'Low Vessel',
     material: 'Cast Resin · 2022',
     size: '18 × 18 × 10 in',
-    image: '/images/design/design-3.jpg',
+    image: '/images/design/design-3.png',
   },
   {
     title: 'Frame Study',
     material: 'Oak · Steel · 2024',
     size: '48 × 30 × 16 in',
-    image: '/images/design/design-4.jpg',
+    image: '/images/design/design-5.png',
   },
 ]
 
@@ -33,7 +33,7 @@ export default function DesignPage() {
     <main className="min-h-screen bg-[#0B0B0B] text-[#DED8CF]">
       <section className="relative flex min-h-screen items-center justify-center overflow-hidden">
         <Image
-          src="/images/design/design-hero.jpg"
+          src="/images/design/design-hero.png"
           alt="Design object detail"
           fill
           priority
@@ -94,7 +94,7 @@ export default function DesignPage() {
         <div className="grid gap-8 md:grid-cols-4">
           <div className="relative min-h-[420px] overflow-hidden md:col-span-2">
             <Image
-              src="/images/design/design-detail.jpg"
+              src="/images/design/design-detail.png"
               alt="Design material detail"
               fill
               className="object-cover"

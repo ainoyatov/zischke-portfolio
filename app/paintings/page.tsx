@@ -29,6 +29,7 @@ const paintingWorks = [
 ]
 
 export default function PaintingsPage() {
+  
   return (
     <main className="min-h-screen bg-[#0B0B0B] text-[#DED8CF]">
       <section className="relative flex min-h-screen items-center justify-center overflow-hidden">

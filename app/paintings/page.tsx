@@ -2,6 +2,7 @@ import Image from 'next/image'
 import Link from 'next/link'
 
 const paintingWorks = [
+  
   {
     title: 'Simplon Pass',
     material: 'Oil on canvas · 1911',

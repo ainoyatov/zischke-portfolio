@@ -2,7 +2,7 @@ import Image from 'next/image'
 import Link from 'next/link'
 
 const sculptureWorks = [
-  
+
   {
     title: 'Silent Form',
     material: 'Bronze · 2024',
@@ -27,6 +27,7 @@ const sculptureWorks = [
     size: '30 × 22 × 16 in',
     image: '/images/sculpture/sculpture-4.jpg',
   },
+  
 ]
 
 export default function SculpturePage() {
